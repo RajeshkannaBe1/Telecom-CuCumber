@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features",tags= {"@Blank"},plugin = {"html:target"},monochrome=(true),dryRun=(false),glue="Telecom")
+@CucumberOptions(features="src/test/resources/Features",plugin = {"html:target"},monochrome=(true),dryRun=(false),glue="Telecom")
 public class CuCuRunner {
 	
 
